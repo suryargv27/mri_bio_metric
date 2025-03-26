@@ -165,25 +165,7 @@ Model: "sequential"
 ├──────────────────────────────────────┼─────────────────────────┼─────────────────┤
 │ dense_1 (Dense)                      │ (None, 21)              │         10,773  │
 └──────────────────────────────────────┴─────────────────────────┴─────────────────┘
-
-## Results
-
-### Performance Analysis
-![Accuracy Plot](https://i.imgur.com/accuracy_plot.png)
-*Training vs validation accuracy over 10 epochs*
-
-### Key Findings
-- **96.30% recognition rate** in identification tasks
-- Val accuracy peaks at **98.78%** (epoch 10)
-- Rapid convergence (val_loss: 2.98 → 0.05)
-
-### Comparative Advantage
-| Feature | Traditional Biometrics | Brain-print |
-|---------|-----------------------|-------------|
-| Spoof Resistance | Low | High |
-| Long-term Stability | Medium | High |
-| Uniqueness | High | Very High |
-| Acquisition Cost | Low | Medium |
+```
 
 ## File Structure
 
