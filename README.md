@@ -1,6 +1,5 @@
 # MRI Brain-print as Secure Hidden Biometric System
 
-![Brain MRI Visualization](https://ascon.iaik.tugraz.at/images/ascon_logo.png)  
 *A novel approach to biometric identification using cortical fold patterns from MRI scans*
 
 ## Table of Contents
@@ -137,12 +136,12 @@ learning_rate = 0.001
    ```python
    Model: "sequential"
    ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━┓
-   ┃ Layer                    ┃ Output Shape      ┃ Param #    ┃
+   ┃ Layer                     ┃ Output Shape      ┃ Param #     ┃
    ┡━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━┩
-   │ Conv2D                   │ (None, 248, 64, 32) │ 160        │
-   │ ...                      │ ...               │ ...        │
-   │ Dense                    │ (None, 21)        │ 10,773     │
-   └──────────────────────────┴───────────────────┴────────────┘
+   │ Conv2D                    │(None, 248, 64, 32)│ 160         │
+   │ ...                       │ ...               │ ...         │
+   │ Dense                     │ (None, 21)        │ 10,773      │
+   └────────────────────────── ┴─────────────────── ┴────────────┘
    ```
 
 ## Results
